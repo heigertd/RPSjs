@@ -1,0 +1,88 @@
+.backgroundYellow{
+    background-color: aqua;
+}
+
+.resultSize{
+    height: 30vh;
+    width: 66vw;
+}
+
+.border{
+    outline-color: black;
+    outline-width: 3px;
+    outline-style: solid;
+}
+
+.translateWin{
+    transform: translate(-50%, -220%);
+}
+
+.translateLost{
+    transform: translate(-50%, -320%);
+}
+
+.translateDraw{
+    transform: translate(-50%, -420%);
+}
+
+.win1{
+    display: inline-block;
+    margin-left: 50.6%;
+    background-color: aqua;
+    z-index:1;
+}
+
+.center{
+    text-align: center;
+    padding-top: 1%;
+}
+
+.transparent{
+    opacity: 0;
+}
+
+.appear{
+    z-index: 4;
+}
+
+.positon1{
+    position: absolute;
+    top:0px;
+}
+
+.relative{
+    position: relative;
+}
+
+.options{
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+    opacity: 10;
+}
+
+.size{
+    height: 25vh;
+    width: 100vw;
+    margin-left: 50%;
+    transform: translate(-50%);
+    font-size: 5vw;
+    line-height: 25vh;
+    background-color: blue;
+    z-index:3;
+}
+
+.levelSize{
+    height: 22vh;
+    width: 49.8vw;
+}
+
+.size:hover{
+    cursor: pointer;
+    background-color: aqua;
+}
+
+.tryAgain:hover{
+    cursor: pointer;
+    background-color:white;
+}
