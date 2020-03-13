@@ -24,11 +24,6 @@ function levelSelect2(){
   element.classList.add("backgroundYellow");
 }
 
-if(element.matches("backgroundYellow")){
-  CPU2 = options;
-}else{
-  CPU2 = CPU2;
-}
 
 //reveal the result
 function playerWin() {
