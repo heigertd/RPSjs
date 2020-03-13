@@ -9,6 +9,7 @@ function CPUoption2(options2){
 }
 
 
+
 function levelSelect(){
   var element = document.getElementById("level1");
   element.classList.add("backgroundYellow");
@@ -23,6 +24,11 @@ function levelSelect2(){
   element.classList.add("backgroundYellow");
 }
 
+if(element.matches("backgroundYellow")){
+  CPU2 = options;
+}else{
+  CPU2 = CPU2;
+}
 
 //reveal the result
 function playerWin() {
