@@ -15,6 +15,7 @@ function levelSelect(){
   element.classList.add("backgroundYellow");
   var element = document.getElementById("level2");
   element.classList.remove("backgroundYellow");
+  CPU2 = options
 }
 
 function levelSelect2(){
